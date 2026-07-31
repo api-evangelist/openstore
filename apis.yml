@@ -1,7 +1,16 @@
 aid: openstore
-name: Openstore
-description: Openstore is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: OpenStore
+description: >-
+  OpenStore (Miami Labs, Inc. d/b/a OpenStore) is a Miami-based e-commerce
+  holding company that buys direct-to-consumer Shopify businesses from their
+  founders, offering data-driven valuations, offers in as little as 24 hours,
+  and closings in about a week. After acquiring long-tail Shopify merchants,
+  OpenStore uses its own software, marketing, and operations platform to run
+  and grow the brands under one portfolio. Founded in 2021 by Keith Rabois and
+  Atomic's Jack Abraham, OpenStore is backed by General Catalyst, Founders
+  Fund, Atomic, Khosla Ventures, and others. It is a consumer/operator
+  business and does not publish a public developer API, SDK, or developer
+  portal; this profile captures its corporate and web-property surface.
 url: https://raw.githubusercontent.com/api-evangelist/openstore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,48 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://open.store/favicon.ico
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-Commerce
+- Shopify
+- Direct-to-Consumer
+- Acquisitions
+- Retail
+- Holding Company
 apis: []
+common:
+- type: DomainSecurity
+  url: security/openstore-domain-security.yml
+- type: Website
+  url: https://open.store
+- type: Blog
+  url: https://open.store/blog/news
+- type: TermsOfService
+  url: https://open.store/terms
+- type: PrivacyPolicy
+  url: https://open.store/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
