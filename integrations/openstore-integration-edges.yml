@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/openstore/integrations
+- https://n8n.io/integrations/openstore/
+- https://composio.dev/toolkits/openstore
+- https://monid.ai/tools/openstore
+checked:
+- https://composio.dev/toolkits/openstore
+- https://monid.ai/tools/openstore
+- https://n8n.io/integrations/openstore/
+- https://zapier.com/apps/openstore/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
